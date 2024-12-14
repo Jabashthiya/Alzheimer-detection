@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+    <img src="/static/images/9.jpg" class="background">
+
+</head>
+<body>
+    <h1><center>Welcome</center></h1><br>
+    <p>Please <a href="{{ url_for('login') }}">Login</a> or <a href="{{ url_for('signup') }}">Sign Up</a> to access the detection system.</p>
+</body>
+</html>
